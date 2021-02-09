@@ -1,0 +1,3 @@
+/home/dji/CLionProjects/M210VideoStreamReader/VideoStreamReader/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dji/CLionProjects/M210VideoStreamReader/VideoStreamReader/cmake-build-debug/CMakeFiles/VideoStreamReader.dir
+/home/dji/CLionProjects/M210VideoStreamReader/VideoStreamReader/cmake-build-debug/CMakeFiles/rebuild_cache.dir
