@@ -1,0 +1,4 @@
+app_id : 1087208
+app_key : a06470841024331fc45b2fbd6bd441c78d9a371770d7da9eefe749fc7406cbe7
+device : /dev/ttyTHS2
+baudrate : 230400

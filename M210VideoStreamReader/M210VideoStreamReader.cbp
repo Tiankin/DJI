@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="M210VideoStreamReader" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\osdk-core\;CMake Files\osdk-core\cmake-modules\;CMake Files\contrib\;CMake Files\VideoStreamReader\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\OpenCV\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="djiosdk-core">
+         <Option output="/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/libs/libdjiosdk-core.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/osdk-core" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DADVANCED_SENSING" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/osdk-core/advanced-sensing-2.0.3/inc" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/osdk-core/api/inc" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/osdk-core/hal/inc" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/osdk-core/modules/inc/flight" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/osdk-core/modules/inc/payload" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/osdk-core/platform/default/inc" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/osdk-core/platform/linux/inc" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/osdk-core/protocol/inc" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/osdk-core/utility/inc" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/aarch64-linux-gnu" />
+            <Add directory="/usr/include/aarch64-linux-gnu/c++/5" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/libusb-1.0" />
+            <Add directory="/usr/lib/gcc/aarch64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/aarch64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/osdk-core/Makefile&quot;  VERBOSE=1 djiosdk-core" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/osdk-core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/osdk-core/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/osdk-core/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="djiosdk-core/fast">
+         <Option output="/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/libs/libdjiosdk-core.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/osdk-core" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DADVANCED_SENSING" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/osdk-core/advanced-sensing-2.0.3/inc" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/osdk-core/api/inc" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/osdk-core/hal/inc" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/osdk-core/modules/inc/flight" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/osdk-core/modules/inc/payload" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/osdk-core/platform/default/inc" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/osdk-core/platform/linux/inc" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/osdk-core/protocol/inc" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/osdk-core/utility/inc" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/aarch64-linux-gnu" />
+            <Add directory="/usr/include/aarch64-linux-gnu/c++/5" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/libusb-1.0" />
+            <Add directory="/usr/lib/gcc/aarch64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/aarch64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/osdk-core/Makefile&quot;  VERBOSE=1 djiosdk-core/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/osdk-core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/osdk-core/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/osdk-core/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="VideoStreamReader">
+         <Option output="/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/bin/VideoStreamReader" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DADVANCED_SENSING" />
+            <Add option="-DOPEN_CV_INSTALLED" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/VideoStreamReader/../osdk-core/api/inc" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/VideoStreamReader/../osdk-core/hal/inc" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/VideoStreamReader/../osdk-core/modules/inc/flight" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/VideoStreamReader/../osdk-core/modules/inc/payload" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/VideoStreamReader/../osdk-core/platform/linux/inc" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/VideoStreamReader/../osdk-core/protocol/inc" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/VideoStreamReader/../osdk-core/utility/inc" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/VideoStreamReader/common" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/osdk-core/advanced-sensing-2.0.3/inc" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/aarch64-linux-gnu" />
+            <Add directory="/usr/include/aarch64-linux-gnu/c++/5" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/libusb-1.0" />
+            <Add directory="/usr/lib/gcc/aarch64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/aarch64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/VideoStreamReader/Makefile&quot;  VERBOSE=1 VideoStreamReader" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/VideoStreamReader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/VideoStreamReader/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/VideoStreamReader/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="VideoStreamReader/fast">
+         <Option output="/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/bin/VideoStreamReader" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DADVANCED_SENSING" />
+            <Add option="-DOPEN_CV_INSTALLED" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/VideoStreamReader/../osdk-core/api/inc" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/VideoStreamReader/../osdk-core/hal/inc" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/VideoStreamReader/../osdk-core/modules/inc/flight" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/VideoStreamReader/../osdk-core/modules/inc/payload" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/VideoStreamReader/../osdk-core/platform/linux/inc" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/VideoStreamReader/../osdk-core/protocol/inc" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/VideoStreamReader/../osdk-core/utility/inc" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/VideoStreamReader/common" />
+            <Add directory="/home/dji/Desktop/M210VideoStreamReader/osdk-core/advanced-sensing-2.0.3/inc" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/aarch64-linux-gnu" />
+            <Add directory="/usr/include/aarch64-linux-gnu/c++/5" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/libusb-1.0" />
+            <Add directory="/usr/lib/gcc/aarch64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/aarch64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/VideoStreamReader/Makefile&quot;  VERBOSE=1 VideoStreamReader/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/VideoStreamReader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/VideoStreamReader/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dji/Desktop/M210VideoStreamReader/cmake-build-debug/VideoStreamReader/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/VideoStreamReader/SocketFileServer.cpp">
+         <Option target="VideoStreamReader"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/VideoStreamReader/SocketFileServer.h">
+         <Option target="VideoStreamReader"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/VideoStreamReader/TCPServer.cpp">
+         <Option target="VideoStreamReader"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/VideoStreamReader/TCPServer.h">
+         <Option target="VideoStreamReader"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/VideoStreamReader/common/dji_linux_environment.cpp">
+         <Option target="VideoStreamReader"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/VideoStreamReader/common/dji_linux_environment.hpp">
+         <Option target="VideoStreamReader"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/VideoStreamReader/common/dji_linux_helpers.cpp">
+         <Option target="VideoStreamReader"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/VideoStreamReader/common/dji_linux_helpers.hpp">
+         <Option target="VideoStreamReader"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/VideoStreamReader/main.cpp">
+         <Option target="VideoStreamReader"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/api/src/dji_ack.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/api/src/dji_broadcast.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/api/src/dji_camera.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/api/src/dji_camera_manager.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/api/src/dji_command.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/api/src/dji_control.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/api/src/dji_error.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/api/src/dji_flight_controller.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/api/src/dji_gimbal.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/api/src/dji_hardware_sync.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/api/src/dji_hotpoint.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/api/src/dji_mfio.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/api/src/dji_mission_manager.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/api/src/dji_mobile_communication.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/api/src/dji_mobile_device.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/api/src/dji_payload_device.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/api/src/dji_psdk_manager.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/api/src/dji_subscription.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/api/src/dji_vehicle.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/api/src/dji_version.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/api/src/dji_virtual_rc.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/api/src/dji_waypoint.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/hal/src/dji_hard_driver.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/hal/src/dji_log.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/hal/src/dji_memory.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/hal/src/dji_platform_manager.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/hal/src/dji_thread_manager.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/modules/src/flight/dji_flight_actions_module.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/modules/src/flight/dji_flight_assistant_module.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/modules/src/flight/dji_flight_link.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/modules/src/payload/dji_camera_module.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/modules/src/payload/dji_payload_base.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/modules/src/payload/dji_payload_link.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/modules/src/payload/dji_psdk_module.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/platform/default/src/dji_memory_default.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/platform/linux/src/linux_serial_device.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/platform/linux/src/posix_thread.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/platform/linux/src/posix_thread_manager.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/protocol/src/dji_aes.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/protocol/src/dji_open_protocol.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/protocol/src/dji_protocol_base.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/utility/src/dji_circular_buffer.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/utility/src/dji_singleton.cpp">
+         <Option target="djiosdk-core"/>
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\osdk-core\" />
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\osdk-core\" />
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/cmake-modules/FindLibUSB.cmake">
+          <Option virtualFolder="CMake Files\osdk-core\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/cmake-modules/FindAdvancedSensing.cmake">
+          <Option virtualFolder="CMake Files\osdk-core\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/cmake-modules/FindFFMPEG.cmake">
+          <Option virtualFolder="CMake Files\osdk-core\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/cmake-modules/DJIOSDKConfig.cmake.in">
+          <Option virtualFolder="CMake Files\osdk-core\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/cmake-modules/DJIOSDKConfig.cmake.in">
+          <Option virtualFolder="CMake Files\osdk-core\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/cmake-modules/DJIOSDKConfigVersion.cmake.in">
+          <Option virtualFolder="CMake Files\osdk-core\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/cmake-modules/FindLibUSB.cmake">
+          <Option virtualFolder="CMake Files\osdk-core\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/cmake-modules/FindLibUSB.cmake">
+          <Option virtualFolder="CMake Files\osdk-core\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/cmake-modules/FindLibUSB.cmake">
+          <Option virtualFolder="CMake Files\osdk-core\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/cmake-modules/FindAdvancedSensing.cmake">
+          <Option virtualFolder="CMake Files\osdk-core\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/cmake-modules/FindFFMPEG.cmake">
+          <Option virtualFolder="CMake Files\osdk-core\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/cmake-modules/DJIOSDKConfig.cmake.in">
+          <Option virtualFolder="CMake Files\osdk-core\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/cmake-modules/DJIOSDKConfig.cmake.in">
+          <Option virtualFolder="CMake Files\osdk-core\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/osdk-core/cmake-modules/DJIOSDKConfigVersion.cmake.in">
+          <Option virtualFolder="CMake Files\osdk-core\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/contrib/DJIConfig.cmake">
+          <Option virtualFolder="CMake Files\contrib\" />
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/contrib/DJIConfig.cmake">
+          <Option virtualFolder="CMake Files\contrib\" />
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/VideoStreamReader/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\VideoStreamReader\" />
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/VideoStreamReader/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\VideoStreamReader\" />
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/dji/Desktop/M210VideoStreamReader/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
